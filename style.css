@@ -24,22 +24,26 @@ body {
   color: #fff;
 }
 
-.first-page {
+/* .first-page {
   height: 500px;
   width: 100%;
-}
+} */
 
 .container {
+  max-width: 1400;
+  height: max-content;
   padding-left: 100px;
+  padding: 0;
+
 }
 
-header {
+/* header {
   overflow-x: hidden;
   width: 100%;
   display: flex;
-}
+} */
 
-.home-image {
+/* .home-image {
     width: 693px;
     height: 740px;
     padding-left: 481px;
@@ -155,10 +159,10 @@ h1 {
   background-color: #161921;
   width: 100%;
   flex-shrink: 0;
-}
+} */
 
 /* --------------------------- Services section ------------------------- */
-
+/* 
 .services {
   margin-top: 140px;
   text-align: center;
@@ -171,7 +175,7 @@ section h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
+} */
 
 /* ------------------------Slider Section------------------------------- */
 
@@ -276,7 +280,7 @@ td {
   text-align: center;
 }
 .page2-footer-path{
-  margin-left: -230px;
+  margin-left: -100px;
   margin-top: 130px;
 }
 .page3-first-article {
